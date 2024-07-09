@@ -71,7 +71,24 @@ h6 {
 .section-padding {
   padding: 120px 0;
 }
+/* Common section heading styles */
+.section-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
 
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.section-details {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 /* 
 .text-primary {
   color: #fd6e0a;
@@ -127,6 +144,7 @@ h6 {
   justify-content: center;
   align-items: center;
   gap: 32px;
+  margin: 0 auto;
 }
 
 h1.banner-title {
@@ -138,4 +156,57 @@ p.banner-desc {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+/* Development area styles */
+#card-container-section {
+  padding: 74px 0 90px 0;
+}
+.card-content {
+  height: auto;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.single-card-item {
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  padding: 48px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 90px;
+}
+.single-card-item:nth-child(3) {
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.card-item-text {
+  width: 65%;
+}
+
+.card-item-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.card-item-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.card-item-text .btn {
+  border-radius: 0;
+  padding: 12px 20px;
+}
+.card-item-img {
+  width: 35%;
+  text-align: center;
+  height: 240px;
 }
