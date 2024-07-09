@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +7,19 @@
 }
 
 body {
-  font-family: ;
+  font-family: "Azeret Mono", monospace;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 1.7;
-  color: rgb(24, 24, 24, 1);
+  color: #0d1321;
 }
 
 a {
   text-decoration: none;
   transition: 0.3s;
-  color: ;
-  font-family: ;
+  color: #0d1321;
+  font-family: "Azeret Mono", monospace;
 }
 a:hover,
 a:focus {
@@ -44,5 +45,73 @@ h5,
 h6 {
   margin: 0 0 15px;
   font-weight: 700;
-  font-family: ;
+  font-family: "Azeret Mono", monospace;
+}
+.btn {
+  padding: 21px 24px;
+  border-radius: 8px;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Azeret Mono", monospace;
+}
+.btn.btn-bordered {
+  border: 1px solid #0d1321;
+  background-color: #ffffff;
+}
+.btn-primary {
+  background-color: #0d1321;
+}
+/* 
+
+
+.text-primary {
+  color: #fd6e0a;
+}
+.section-padding {
+  padding: 120px 0;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.bg-primary {
+  background-color: rgba(255, 248, 243, 1);
+}
+.text-center {
+  text-align: center;
+}
+.pt-0 {
+  padding-top: 0;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+.section-title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-column {
+  width: 558px;
+}
+*/
+/* Header Styles */
+.full-width {
+  width: 100%;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.navbar ul {
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  font-size: 28px;
+  font-weight: 800;
 }
