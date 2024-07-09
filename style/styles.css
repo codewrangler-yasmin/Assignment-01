@@ -71,6 +71,7 @@ h6 {
 .section-padding {
   padding: 120px 0;
 }
+
 /* Common section heading styles */
 .section-header {
   text-align: center;
@@ -116,6 +117,7 @@ h6 {
   font-size: 28px;
   font-weight: 800;
 }
+
 /* Banner Styles */
 .banner-bg {
   background-image: url(../assets/images/Hero-bg.png);
@@ -146,7 +148,8 @@ p.banner-desc {
   font-weight: 400;
   line-height: 26px;
 }
-/* Development area styles */
+
+/* Card styles */
 #card-container-section {
   padding: 74px 0 90px 0;
 }
@@ -199,6 +202,7 @@ p.banner-desc {
   text-align: center;
   height: 240px;
 }
+
 /* YouTube video area styles */
 .video-inner {
   border-radius: 16px;
@@ -210,6 +214,7 @@ p.banner-desc {
   height: 550px;
   border-radius: 16px;
 }
+
 /* Current skills styles */
 .current-skill-content {
   display: flex;
@@ -259,6 +264,7 @@ p.banner-desc {
   line-height: normal;
   text-decoration-line: underline;
 }
+
 /* Next skill styles */
 .next-skill-content {
   display: flex;
@@ -284,6 +290,7 @@ p.banner-desc {
 .next-skill-text {
   width: 85%;
 }
+
 /* CTA styles */
 .cta-bg {
   background-image: url(../assets/images/handshake.jpg);
@@ -355,6 +362,7 @@ p.banner-desc {
   color: #0d1321;
   opacity: 1;
 }
+
 /* Footer styles */
 footer {
   padding: 32px 0;
