@@ -252,12 +252,14 @@ p.banner-desc {
   height: 56px;
   margin-bottom: 24px;
 }
-.current-skill-item h3 {
+.current-skill-item h3,
+.next-skill-item h3 {
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
 }
-.current-skill-item p {
+.current-skill-item p,
+.next-skill-item p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -269,4 +271,29 @@ p.banner-desc {
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
+}
+/* Next skill styles */
+.next-skill-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.next-skill-item {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.next-skill-img img {
+  width: 120px;
+}
+.next-skill-img {
+  width: 15%;
+}
+.next-skill-text {
+  width: 85%;
 }
