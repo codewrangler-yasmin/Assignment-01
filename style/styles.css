@@ -74,6 +74,8 @@ h6 {
 /* Common section heading styles */
 .section-header {
   text-align: center;
+  margin: 0 auto;
+  width: 736px;
   margin-bottom: 48px;
 }
 
@@ -209,4 +211,15 @@ p.banner-desc {
   width: 35%;
   text-align: center;
   height: 240px;
+}
+/* YouTube video area styles */
+.video-inner {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 32px;
+}
+.video-inner iframe {
+  width: 100%;
+  height: 550px;
+  border-radius: 16px;
 }
