@@ -1,0 +1,255 @@
+/* Laptop Layout */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+}
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .btn {
+    padding: 14px 18px;
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  .section-details {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .banner-content {
+    width: 80%;
+  }
+  h1.banner-title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .card-item-text h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #card-container-section {
+    padding: 0;
+  }
+  .card-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .current-skill-content {
+    display: block;
+    text-align: center;
+  }
+  .current-skill-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container.cta-bg {
+    width: calc(100% - 30px);
+  }
+}
+/* Wide Mobile Layout: 576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .btn {
+    padding: 14px 18px;
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  .section-details {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .section-header {
+    width: 100%;
+  }
+  .banner-content {
+    width: 80%;
+  }
+  h1.banner-title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .card-item-text h3 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #card-container-section {
+    padding: 0;
+  }
+  .card-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .single-card-item {
+    padding: 25px;
+    gap: 0 25px;
+  }
+  .card-item-text p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .current-skill-content {
+    display: block;
+    text-align: center;
+  }
+  .current-skill-item {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .video-inner iframe {
+    height: 300px;
+  }
+  .video-inner {
+    padding: 18px;
+    padding-bottom: 9px;
+  }
+  .next-skill-item {
+    padding: 20px;
+  }
+  #next-skill-container {
+    padding-top: 0;
+  }
+  .container.cta-bg {
+    width: calc(100% - 30px);
+  }
+  input#email {
+    width: 60%;
+    padding: 14px;
+    font-size: 13px;
+  }
+  .cta-text p {
+    width: 100%;
+  }
+  .footer-text p {
+    font-size: 16px;
+  }
+  .social-links img {
+    width: 25px;
+    height: 25px;
+  }
+  .social-links ul {
+    gap: 10px;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .btn {
+    padding: 14px 18px;
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  .section-details {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .section-header {
+    width: 100%;
+  }
+  .banner-content {
+    width: 80%;
+  }
+  h1.banner-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .card-item-text h3 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #card-container-section {
+    padding: 0;
+  }
+  .card-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .single-card-item {
+    padding: 25px;
+    gap: 0 25px;
+  }
+  .card-item-text p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .current-skill-content {
+    display: block;
+    text-align: center;
+  }
+  .current-skill-item {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .video-inner iframe {
+    height: 300px;
+  }
+  .video-inner {
+    padding: 18px;
+    padding-bottom: 9px;
+  }
+  .next-skill-item {
+    padding: 20px;
+  }
+  #next-skill-container {
+    padding-top: 0;
+  }
+  .container.cta-bg {
+    width: calc(100% - 30px);
+  }
+  input#email {
+    width: 60%;
+    padding: 14px;
+    font-size: 13px;
+  }
+  .cta-text p {
+    width: 100%;
+  }
+  .footer-text p {
+    font-size: 16px;
+  }
+  .social-links img {
+    width: 25px;
+    height: 25px;
+  }
+  .social-links ul {
+    gap: 10px;
+  }
+}
